@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferreteria Express</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../mi_css/integradora.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--Header-->
+    <header class="row justify-content-center">
+        <!--Parte Arriba Header-->
+        <div class="row justify-content-center border-bottom border-1 border-dark border-opacity-25">
+            <!--Logo Express-->
+            <div class="col-2 text-end">
+                <object data="../svg/logo-r.svg" width="200px" height="50px" class="text-end border border-dark logo"></object>
+            </div>
+            
+            <!--Barra de Busqueda-->
+            <div class="col-5 text-center">
+                <div class="input-group mb-3 border border-1 border-dark rounded rounded-3  buscar">
+                    <!--Categorias-->
+                    <button class="btn btn-outline-secondary dropdown-toggle    selec_categoria" type="button" data-bs-toggle="dropdown" aria-expanded="false"><b>Categoria</b></button>
+                        <!--Dropdown-->
+                        <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Herramientas</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Tuberias</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Cemento</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Material electrico</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Material de construccion</a></li>
+                        </ul>
+
+                    <!--Barra-->
+                    <input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="Buscar">
+
+                    <!--Boton Buscar-->
+                    <button class="btn btn-outline-secondary    b-buscar" type="button" id="button-addon1">Buscar</button>
+                  </div>
+            </div>
+
+            <!--Login-->
+            <div class="col-2">
+                <!-- Button trigger modal -->
+                <button class="btn  boton-login" type="button" data-bs-toggle="modal" data-bs-target="#modal-login">
+                    <img src="../svg/perfil-b.svg" alt="" width="51px" height="51px">
+                    <p class="texto-boton-login"><b>Iniciar Sesion o Registrarse</b></p>
+                </button>
+      
+                <!-- Modal -->
+                <div class="modal fade" id="modal-login" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                        ...
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Parte Abajo Header-->
+        <div class="border-bottom border-2 border-dark">
+            <div class="row justify-content-center  barra">
+                <!--Pendiente-->
+                <div class="col-2">
+                    si perra
+                </div>
+
+                <!--Inicio-Productos-Servicios-->
+                <div class="col-4">
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item     boton-bb">
+                            <a class="btn   boton-a-bb" type="button" href="../html/vacuna.html">
+                                <div class="organizar">
+                                    <img src="../svg/casa-b.svg" width="35px" height="35px">
+                                    <p class="texto-botones-bb"><b>Inicio</b></p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item     boton-bb">
+                            <a class="btn   boton-a-bb" href="../html/capybara.html">
+                                <div class="organizar">
+                                    <img src="../svg/caja-b.svg" width="35px" height="35px">
+                                    <p class="texto-botones-bb"><b>Productos</b></p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item     boton-bb">
+                            <a class="btn   boton-a-bb" href="../html/filas.html">
+                                <div class="organizar">
+                                    <img src="../svg/servicios-b.svg" width="35px" height="35px">
+                                    <p class="texto-botones-bb"><b>Servicios</b></p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!--MisPedidos-Carrito-->
+                <div class="col-2">
+                    <ul class="nav justify-content-end  prueba">
+                        <li class="nav-item     boton-bb-dos">
+                            <a class="btn   boton-a-bb" href="../html/filas.html">
+                                <div class="organizar">
+                                    <img src="../svg/bolsa-b.svg" width="35px" height="35px">
+                                    <p class="texto-botones-bb"><b>Mis Pedidos</b></p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item     boton-bb-dos">
+                            <a class="btn   boton-a-bb" href="../html/filas.html">
+                                <div class="organizar">
+                                    <img src="../svg/carrito-b.svg" width="35px" height="35px">
+                                    <p class="texto-botones-bb"><b>Carrito</b></p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--Carrusel-->
+    <div class="carrusel">
+        <div class="border border-success   anuncio">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="..." class="d-block w-100 carrusel" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="..." class="d-block w-100 carrusel" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="..." class="d-block w-100 carrusel" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+    </div>
+
+    <!--Contenedor-->
+    <div class="container-xxl border border-warning     contenedor">
+        
+        <!--Mensaje Presentacion-->
+        <div class="row">
+            <div class="col-6">
+                <p>
+                    ¿Quienes Somos?
+                </p>
+            </div>
+            <div class="col-6">
+                <p>
+                    Somos una distribuidora de materiales y herramientas de la comarca lagunera con la mision de llevar a tu casa todos los productos que necesites para que tengas el hogar y la comodidad por la que tanto trabajas dia con dia.
+                </p>
+            </div>
+        </div>
+        
+        <div class="cuadro-presentacion">
+            <div class="row">
+                <div class="col-6">
+                    <h2>¿Quienes Somos?</h2>
+                <p class="mensaje">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores sint adipisci fugiat maxime ut earum corrupti suscipit animi, dolorum numquam placeat, architecto, natus est temporibus hic aliquid fuga reprehenderit facere?
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe voluptate in, reiciendis consectetur porro nemo deleniti ipsum illo sapiente delectus voluptatibus quibusdam vel. Accusantium, nam voluptatum? Amet explicabo similique sint?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error deserunt praesentium cupiditate explicabo doloribus dolorum iste. At aspernatur quia consequatur minus, exercitationem explicabo alias rem necessitatibus reiciendis! Numquam, corrupti dolore.
+                </p>
+                </div>
+
+                <div class="col-6">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3599.397742499458!2d-103.39389634904279!3d25.558430823141205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x868fdb1c936e9889%3A0x27c2d3f576d84aca!2sExpress%20Materiales!5e0!3m2!1ses-419!2smx!4v1657719885957!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/bootstrap.bundle.js"></script>
+</html>

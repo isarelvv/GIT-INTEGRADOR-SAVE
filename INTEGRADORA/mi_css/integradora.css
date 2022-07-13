@@ -1,0 +1,150 @@
+body
+{
+    background-color: #ffffff;
+}
+
+/*-----------------------------------------------------*\
+                        Header Alto
+\*-----------------------------------------------------*/
+/*Imagen Logo*/
+header
+{
+    min-height: 70px;
+    background-color: #8B0006;
+}
+
+.logo
+{
+    background-color: white;
+    margin-top: 10px;
+}
+
+
+/*Barra de Navegacion*/
+.buscar
+{
+    margin-top: 15px;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.selec_categoria
+{
+    background-color: #98989A;
+    color: #fff;
+}
+
+.b-buscar
+{
+    background-color: #98989A;
+    color: #fff;
+}
+
+
+/*Login*/
+.boton-login
+{
+    margin-top: 9px;
+    width: 180px;
+    height: 51px;
+    padding: 0%;
+    color: #fff;
+    display: flex;
+}
+
+.texto-boton-login
+{
+    margin-top: 3px;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11pt;
+}
+
+
+
+/*-----------------------------------------------------*\
+                        Header Bajo
+\*-----------------------------------------------------*/
+.barra
+{
+    height: 45px;
+    background-color: #8B0006;
+}
+
+.boton-bb
+{
+    margin-top: 5px;
+    margin-left: 25px;
+    margin-right: 25px;
+    
+}
+
+.boton-bb-dos
+{
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.boton-a-bb
+{
+    padding: 0%;
+    width: auto;
+    height: 35px;
+}
+
+.organizar
+{
+    display: flex;
+}
+
+.texto-botones-bb
+{
+    margin-top: 3px;
+    margin-left: 10px;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13pt;
+    color: #fff;
+}
+
+.prueba
+{
+    display: flex;
+}
+
+
+
+/*-----------------------------------------------------*\
+                        Carrusel
+\*-----------------------------------------------------*/
+.anuncio
+{
+    width: auto;
+    height: 350px;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+}
+
+.carusel
+{
+    width: auto;
+    height: 350px;
+}
+
+
+
+/*-----------------------------------------------------*\
+                        Contenedor
+\*-----------------------------------------------------*/
+.contenedor
+{
+    padding: 0%;
+}
+
+/*Mensaje Presentacion*/
+.cuadro-presentacion
+{
+    background-color: red;
+}
